@@ -5,6 +5,7 @@ public class BubbleScript : MonoBehaviour {
 
     public GameObject B;
     private WeaponScript b1Script;
+    //Any more variables needed here?
 
     void Start() { 
     b1Script = B.GetComponent("WeaponScript") as WeaponScript;
