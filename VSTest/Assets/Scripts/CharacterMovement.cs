@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour {
 
+    float timer = 0f;
+
 	// Use this for initialization
 	void Start () {
-		
+        timer += Time.deltaTime;
 	}
 	
 	// Update is called once per frame
