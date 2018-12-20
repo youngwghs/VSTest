@@ -7,8 +7,6 @@ public class BubbleScript : MonoBehaviour {
     private WeaponScript b1Script;
     //Any more variables needed here?
 
-
-        //I agree, more variables are needed!
     void Start() { 
     b1Script = B.GetComponent("WeaponScript") as WeaponScript;
 }
