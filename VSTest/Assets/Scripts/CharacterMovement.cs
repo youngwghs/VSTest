@@ -5,6 +5,7 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour {
 
     float timer = 0f;
+    float runningSpeed = 5f;
 
 	// Use this for initialization
 	void Start () {
