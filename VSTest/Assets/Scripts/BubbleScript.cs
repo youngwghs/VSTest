@@ -9,9 +9,13 @@ public class BubbleScript : MonoBehaviour {
 
 
         //I agree, more variables are needed!~~
+
+    
+    
     void Start() { 
     b1Script = B.GetComponent("WeaponScript") as WeaponScript;
-}
+        //[insert connection to Dinosaur game object here]
+    }
 
     void OnTriggerEnter2D(Collider2D col)
     {
