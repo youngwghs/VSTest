@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class FollowCameraScript : MonoBehaviour {
 
+    float xMargin, yMargin;
+
+
 	// Use this for initialization
 	void Start () {
 		
