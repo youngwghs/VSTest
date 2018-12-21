@@ -17,6 +17,6 @@ public class CharacterMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         movePlayerVector = Input.GetAxis("Horizontal");
-
+        //will this maincharacter branch code appear in the master?
     }
 }
