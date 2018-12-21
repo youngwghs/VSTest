@@ -7,6 +7,7 @@ public class CharacterMovement : MonoBehaviour {
     //instance variables
     float timer = 0f;
     float runningSpeed = 5f;
+    float movePlayerVector = 0;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +16,7 @@ public class CharacterMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        movePlayerVector = Input.GetAxis("Horizontal");
+
+    }
 }
