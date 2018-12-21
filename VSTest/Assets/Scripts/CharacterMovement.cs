@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour {
 
+    //instance variables
     float timer = 0f;
     float runningSpeed = 5f;
 
